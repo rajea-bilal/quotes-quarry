@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Lora:wght@500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f9f8f4;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+input,
+textarea,
+select:focus {
+  outline: none;
+}
+
+.containerTop {
+  background: #f9f8f4;
+  padding: 0 0 2rem 0;
+  max-width: 1140px;
+  margin: 4rem auto 4rem auto;
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  line-height: 1.4;
+  font-family: 'Lora', serif;
+  font-size: 1.4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+
+  gap: 3rem;
+}
+
+.quoteInfo h2 {
+  color: rgb(73, 69, 57);
+  margin-bottom: 4rem;
+  font-size: 3.5rem;
+  max-width: 35rem;
+}
+.addQuoteSection {
+  /* border: 1px solid red; */
+  padding: 1rem;
+}
+.quote-label {
+  font-family: 'Crimson Text', serif;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  display: block;
+  color: rgb(73, 69, 57);
+}
+.quoteText {
+  border: none;
+  background: #ece8df;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  font-family: 'Jost', sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.quoteCat {
+  border: none;
+  background: #ece8df;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-family: 'Jost', sans-serif;
+  margin-bottom: 0.7rem;
+}
+.addQuoteSection button {
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  background: rgb(168, 153, 97);
+  color: ivory;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.addQuoteSection button:hover {
+  background: rgb(145, 132, 84);
+}
+.quoteInfo {
+  padding: 1rem;
+}
+.quote {
+  margin-bottom: 1rem;
+  max-width: 35rem;
+  color: rgb(130, 128, 124);
+}
+
+.author {
+  font-family: 'Crimson Text', serif;
+  margin-bottom: 0.7rem;
+  color: rgb(73, 69, 57);
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  background: rgb(168, 153, 97);
+  color: ivory;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgb(145, 132, 84);
+}
+
+/* Search Quotes */
+.searchQuotesSection {
+  margin-top: 3rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.searchQuotesSection input {
+  border: none;
+  background: #ece8df;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+}
+
+/* Single Quote Card */
+.singleQuote {
+  /* border: 1px solid red; */
+  padding: 1rem;
+  background: #ece8df;
+  border-radius: 0.2rem;
+  color: rgb(73, 69, 57);
+  box-shadow: 3px 3px 19px -9px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.singleQuote-Text {
+  height: 9rem;
+}
+.singleQuote:hover {
+  background: #dad4c7;
+}
+
+.singleQuote .quoteCardInfo {
+  margin-top: 1rem;
+  color: rgb(145, 132, 84);
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 1rem;
+}
+
+.quoteLink {
+  text-decoration: none;
+}
+
+.containerBottom {
+  max-width: 1140px;
+  padding: 1rem;
+  margin: auto;
+  background: #f9f8f4;
+  /* border: 1px solid red; */
+  line-height: 1.4;
+  font-family: 'Jost', sans-serif;
+  font-size: 1rem;
+}
+.containerBottom h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: rgb(73, 69, 57);
+}
+.quotesDisplaySection {
+  /* border: 1px solid red; */
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  /* grid-auto-rows: 200px; */
+}
+
+/* Single Quote Page */
+.singleQuotePage-section {
+  background: #f9f8f4;
+  /* border: 1px solid red; */
+  max-width: 1140px;
+  margin: 4rem auto 4rem auto;
+}
+.form {
+  max-width: 40rem;
+  margin: 4rem auto;
+  padding: 1rem;
+}
+
+.form-label {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  display: block;
+  color: rgb(73, 69, 57);
+}
+.btnContainer {
+  /* border: 1px solid red; */
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.btnBox {
+  display: flex;
+  gap: 0.7rem;
+}
+.socialBox {
+  display: flex;
+  gap: 0.7rem;
+}
+.shareOnSocial {
+  font-size: 2.6rem;
+  cursor: pointer;
+  color: rgb(73, 69, 57);
+  transition: all 0.3s ease-in-out;
+}
+.shareOnSocial:hover {
+  color: rgb(107, 102, 85);
+}
+/* Update Message Section */
+.updateMessageSection {
+  /* border: 1px solid red; */
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 40rem;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.4;
+  font-family: 'Jost', sans-serif;
+  font-size: 2rem;
+  color: rgb(73, 69, 57);
+}
+.updateMessageSection article {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.updateImageBox {
+  /* border: 1px solid red; */
+  max-width: 30rem;
+}
+
+.back-btn {
+  width: 100%;
+  margin: 3rem auto;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+  background: rgb(145, 132, 84);
+}
+
+/* images */
+.vintageMan {
+  width: 100%;
+}
+.letterImage {
+  /* border: 1px solid red; */
+  border-radius: 0.4rem;
+  width: 40%;
+}
