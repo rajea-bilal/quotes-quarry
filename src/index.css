@@ -44,6 +44,7 @@ select:focus {
 }
 .addQuoteSection {
   /* border: 1px solid red; */
+  max-width: 40rem;
   padding: 1rem;
 }
 .quote-label {
