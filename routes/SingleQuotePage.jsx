@@ -1,12 +1,11 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faTwitterSquare,
-  faWhatsappSquare,
-  faInstagramSquare,
-} from '@fortawesome/free-brands-svg-icons';
+
+// social media icons
+import whatsapp from '../images/whatsapp.png';
+import twitter from '../images/twitter.png';
+import instagram from '../images/instagram.png';
+
 import { Link, useParams, useNavigate } from 'react-router-dom';
-// import { BiSolidMessageSquareEdit } from 'react-icons/bi'
 
 const SingleQuotePage = () => {
   const [quote, setQuote] = React.useState();
@@ -204,19 +203,19 @@ const SingleQuotePage = () => {
               </div>
 
               <div className="socialBox">
-                <FontAwesomeIcon
+                <img
                   onClick={shareOnTwitter}
-                  icon={faTwitterSquare}
+                  src={twitter}
                   className="shareOnSocial"
                 />
-                <FontAwesomeIcon
+                <img
                   onClick={shareOnWhatsApp}
-                  icon={faWhatsappSquare}
+                  src={whatsapp}
                   className="shareOnSocial"
                 />
-                <FontAwesomeIcon
+                <img
                   onClick={shareOnInstagram}
-                  icon={faInstagramSquare}
+                  src={instagram}
                   className="shareOnSocial"
                 />
               </div>
