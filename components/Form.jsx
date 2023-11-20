@@ -13,11 +13,14 @@ const Form = ({ onAdd }) => {
     // making a POST request to the server to create a new book in the DB
     const newQuote = { quoteText, author, bookTitle, category };
 
-    const response = await fetch('http://localhost:5000/quotes/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(newQuote),
-    });
+    const response = await fetch(
+      'https://quotes-quarry-backend.onrender.com/quotes/',
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(newQuote),
+      }
+    );
 
     const json = await response.json();
     const addedQuote = json.data;

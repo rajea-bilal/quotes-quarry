@@ -6,7 +6,7 @@ const QuotesDisplay = ({ setQuotesArray, quotesArray }) => {
   const [isLoading, setIsLoading] = React.useState(true);
   const [error, setError] = React.useState(null);
 
-  const baseUrl = 'http://localhost:5000/quotes';
+  const baseUrl = 'https://quotes-quarry-backend.onrender.com/quotes/';
 
   React.useEffect(() => {
     // fetching quotes from the backend

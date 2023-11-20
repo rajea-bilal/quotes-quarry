@@ -19,7 +19,7 @@ const SingleQuotePage = () => {
   const [catId, setCatId] = React.useState('');
   const [category, setCategory] = React.useState('');
 
-  const baseUrl = 'http://localhost:5000/quotes/';
+  const baseUrl = 'https://quotes-quarry-backend.onrender.com/quotes/';
 
   const navigate = useNavigate();
   // grab the params from the url
