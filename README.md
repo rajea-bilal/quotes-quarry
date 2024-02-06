@@ -1,6 +1,9 @@
 
 # React Frontend for Quotes Quarry
 
+<img width="733" alt="Screenshot 2024-02-06 at 18 37 11" src="https://github.com/rajea-bilal/quotes-quarry/assets/93056794/6ab2969c-463f-4028-99b4-235c2b332401">
+
+
 ## 🧠 Problem
 
 As a lover of books, I often encountered captivating passages that I wished to preserve beyond mere highlights that would be forgotten with time. Realizing the issue, led me to develop an app that solves this problem - welcome to Quotes Quarry!
