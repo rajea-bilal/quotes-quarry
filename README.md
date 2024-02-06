@@ -1,7 +1,7 @@
 
 # React Frontend for Quotes Quarry
 
-<img width="733" alt="Screenshot 2024-02-06 at 18 37 11" src="https://github.com/rajea-bilal/quotes-quarry/assets/93056794/6ab2969c-463f-4028-99b4-235c2b332401">
+<img width="500" alt="Screenshot 2024-02-06 at 18 37 11" src="https://github.com/rajea-bilal/quotes-quarry/assets/93056794/6ab2969c-463f-4028-99b4-235c2b332401">
 
 
 ## 🧠 Problem
