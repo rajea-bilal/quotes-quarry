@@ -7,7 +7,11 @@ As a lover of books, I often encountered captivating passages that I wished to p
 
 ## 🔖  Solution
 
-Quotes Quarry allows users to seamlessly add noteworthy excerpts from books, complete with author and name of book. With ability to share some of these pieces on social media. The app is connected to an Express REST API and uses a PostgreSQL database for efficient querying. 
+Quotes Quarry allows users to seamlessly add noteworthy excerpts from books, complete with author and name of book. Plus, you can easily share these literary gems on your social media accounts as well :)
+
+## 💪🏽 Process
+The app is connected to a server in the backend built using Express REST API. The smooth connection between the client (user) and the backend (server) ensures that the right information is fetched and delivered efficiently. The server connects to a database (PostgreSQL). It's where all the information about the quotes is stored. Just as a library helps you find a book by its title or author, the database allows the app to quickly find and retrieve the quotes the user is looking for.
+
 
 ## 📡 Technology Used
 
@@ -21,7 +25,7 @@ Quotes Quarry allows users to seamlessly add noteworthy excerpts from books, com
 
 - Implement end-to-end testing via Playwright
 - Improve the accessibility of the app 
-- Implement user authorization and login feature
+- Implement user authorization and login feature so users can access their own dedicated quotes page
 
 ## 🛠️ Installation Process
 
