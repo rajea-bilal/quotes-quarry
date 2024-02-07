@@ -59,12 +59,7 @@ To run this project locally, follow these steps:
     npm install
     ```
 
-4. **Set up the database:**
-
-    - Create a PostgreSQL database.
-    - Update the database configuration in the `server/config/db.js` file.
-
-5. **Run the server:**
+4. **Run the server:**
 
     ```bash
     npm run dev
